@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.stats {
+  border-collapse: collapse;
+  width: 50%;
+  border: 5px solid black;
+}
+
+.stats td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button-container button {
+  font-size: 15px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.renderNames {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.renderNames td, .renderNames th {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
